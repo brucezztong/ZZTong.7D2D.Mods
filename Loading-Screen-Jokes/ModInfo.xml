@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Loading-Jokes" />
+		<Name value="Loading-Screen-Jokes" />
 		<Description value="Adds zombie jokes to the loading screen." />
 		<Author value="ZZTong" />
 		<Version value="20.6" />
