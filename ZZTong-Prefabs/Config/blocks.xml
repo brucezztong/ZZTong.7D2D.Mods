@@ -1,5 +1,9 @@
 ﻿<blocks>
 	<append xpath="/blocks">
+        <!-- ************************************************************************* 
+            Empty Generic Storage Crates...
+        ************************************************************************** -->
+
         <block name="zztongStorageGenericCube">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="cntStorageHealth"/>
@@ -229,7 +233,6 @@
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="cntStorageHealth"/>
             <property name="CustomIconTint" value="6BB6E8"/>
-            <property name="Class" value="Loot"/>
             <property name="LootList" value="zztongStorageCrateWeaps"/>
             <property name="Material" value="MwoodReinforced"/>
             <property name="Texture" value="422"/>
@@ -243,6 +246,226 @@
             <property name="FilterTags" value="MC_building,SC_loot"/>
         </block>
 
+        <!-- ************************************************************************* 
+            Empty Version of TFP Shipping Crates...
+        ************************************************************************** -->
+
+        <block name="zztongShippingCrateShamwayCube">
+            <property name="DescriptionKey" value="cntShippingCrateGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="cntShippingCrateShamway"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_ShamwayPrefab.prefab"/>
+            <property name="Material" value="Mwood_regular"/>
+            <drop event="Destroy" name="resourceWood" count="1,3"/>
+            <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+            <property name="FilterTags" value="MC_building,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongShippingCrateLabEquipmentCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateLabEquipment"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_PopNPillsPrefab.prefab"/>
+        </block>
+
+        <block name="zztongShippingCrateBookstoreCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateBookstore"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_CrackABookPrefab.prefab"/>
+        </block>
+
+        <block name="zztongShippingCrateCarPartsCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateCarParts"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_PassNGasPrefab.prefab"/>
+        </block>
+
+        <block name="zztongShippingCrateShotgunMessiahCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateShotgunMessiah"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_ShotgunPrefab.prefab"/>
+        </block>
+
+        <block name="zztongShippingCrateWorkingStiffsCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateWorkingStiffs"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_WorkingStiffsPrefab.prefab"/>
+        </block>
+
+        <block name="zztongShippingCrateSavageCountryCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateSavageCountry"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_SavagePrefab.prefab"/>
+        </block>
+
+        <block name="zztongShippingCrateMoPowerElectronicsCube">
+            <property name="Extends" value="zztongShippingCrateShamwayCube"/>
+            <property name="CustomIcon" value="cntShippingCrateMoPowerElectronics"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/LootContainers?crate_store_MoPowerPrefab.prefab"/>
+        </block>
+
+        <!-- *************************************************************************
+            TFP and ZZTong Shipping Crate Helpers...
+        ************************************************************************** -->
+
+        <block name="zztongTestHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateShamway"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Shamway -->
+        <block name="zztongShamwayShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateShamway"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongShamwayShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateShamway"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Lab Equipment -->
+        <block name="zztongLabEquipmentShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateLabEquipment"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongLabEquipmentShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateLabEquipment"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Bookstore -->
+        <block name="zztongBookstoreShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateBookstore"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongBookstoreShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateBookstore"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Car Parts -->
+        <block name="zztongCarPartsShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateCarParts"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongCarPartsShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateCarParts"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Shotgun Messiah -->
+        <block name="zztongShotgunMessiahShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateShotgunMessiah"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongShotgunMessiahShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateShotgunMessiah"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Working Stiffs -->
+        <block name="zztongWorkingStiffsShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateWorkingStiffs"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongWorkingStiffsShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateWorkingStiffs"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Savage Country -->
+        <block name="zztongSavageCountryShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateSavageCountry"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongSavageCountryShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateSavageCountry"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- Mo Power Electronics -->
+        <block name="zztongMoPowerElectronicsShippingCrateHelper">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateMoPowerElectronics"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <block name="zztongMoPowerElectronicsShippingCrateHelperAir">
+            <property name="Extends" value="cntWastelandRandomLootHelper" param1="DescriptionKey"/>
+            <property name="CustomIcon" value="cntShippingCrateMoPowerElectronics"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="FilterTags" value="MC_helpers,SC_loot,SC_treasureRoom"/>
+        </block>
+
+        <!-- *************************************************************************
+            Minor Loot and Lootless Containers
+        ************************************************************************** -->
+
+        <!-- ******* TEMP REMOVED ******
         <block name="zztongSurvivorChest">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="cntChest01"/>
@@ -250,7 +473,7 @@
             <property name="Class" value="Loot"/>
             <property name="LootList" value="zztongSurvivorLoot"/>
             <property name="Material" value="MwoodReinforced"/>
-            <property name="StabilitySupport" value="false"/> <!--  build restriction  -->
+            <property name="StabilitySupport" value="false"/>
             <property name="Shape" value="Ext3dModel"/>
             <property name="Texture" value="293"/>
             <property name="Mesh" value="models"/>
@@ -264,8 +487,8 @@
             <drop event="Destroy" name="resourceWood" count="1,3"/>
             <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
             <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
-
         </block>
+        -->
 
         <block name="zztongBookcaseBookless">
             <property name="CreativeMode" value="Dev"/>
@@ -299,7 +522,6 @@
             <property name="MaxDamage" value="100"/>
             <property name="LightOpacity" value="0"/>
             <property name="StabilitySupport" value="false"/>
-            <!--  build restriction  -->
             <property name="Shape" value="Ext3dModel"/>
             <property name="Texture" value="293"/>
             <property name="Shape" value="ModelEntity"/>
@@ -388,6 +610,21 @@
             <property name="CustomIcon" value="cntBarrelGasSingle45"/>
         </block>
 
+        <!-- VENDING MACHINES -->
+        <block name="zztongVendingMachine2Empty">
+            <property name="Extends" value="cntVendingMachine2Broken"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="Class" value="Loot"/>
+            <property name="CustomIcon" value="cntVendingMachine2Broken"/>
+            <property name="Model" value="Entities/Crafting/vending_machinePrefab"/>
+            <property name="LootList" value="playerStorage"/>
+        </block>
+
+        <block name="zztongVendingMachineRandomHelper">
+            <property name="Extends" value="cntVendingMachine2RandomLootHelper"/>
+        </block>
+
         <!-- CUSTOM BLOCKS FOR DELOS POIs -->
         <block name="zztongDelosAndroidMale">
             <property name="Extends" value="decoEntityPolymerMaster"/>
@@ -426,6 +663,127 @@
             <property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
             <property name="FilterTags" value="MC_building,SC_loot"/>
         </block>
+
+        <!-- *******************************************************************
+            Items to Offset...
+        ******************************************************************** -->
+
+        <block name="zztongToasterOffset">
+            <property name="Extends" value="cntToaster"/>
+            <property name="CustomIcon" value="cntToaster"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="ModelOffset" value="-0.3,0.5,0.0"/>
+        </block>
+
+        <block name="zztongCookingPotOffset">
+            <property name="Extends" value="decoCookingPot"/>
+            <property name="CustomIcon" value="toolCookingPot"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="ModelOffset" value="0.0,0.5,-0.3"/>
+        </block>
+
+        <block name="zztongMannequinMaleOffset">
+            <property name="Extends" value="decoMannequinMale"/>
+            <property name="CustomIcon" value="decoMannequinMale"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="ModelOffset" value="0.0,0.5,-0.3"/>
+        </block>
+
+        <block name="zztongMannequinFemaleOffset">
+            <property name="Extends" value="decoMannequinFemale"/>
+            <property name="CustomIcon" value="decoMannequinFemale"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="ModelOffset" value="0.0,0.5,-0.3"/>
+        </block>
+
+        <!-- *************************************************************************
+            Cookpot Helper
+        ************************************************************************** -->
+
+        <block name="zztongCookingPotHelper">
+            <property name="Extends" value="decoCookingPot"/>
+            <property name="CustomIcon" value="toolCookingPot"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <!-- *************************************************************************
+            Landmine Helpers
+        ************************************************************************** -->
+
+        <block name="zztongLandMine50RandomHelper">
+            <property name="Extends" value="mineCandyTin"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMine10RandomHelper">
+            <property name="Extends" value="mineCandyTin"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMineCandyTin50RandomHelper">
+            <property name="Extends" value="mineCandyTin"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMineCandyTin10RandomHelper">
+            <property name="Extends" value="mineCandyTin"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMineHubcap50RandomHelper">
+            <property name="Extends" value="mineHubcap"/>
+            <property name="CustomIcon" value="mineHubcap"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMineHubcap10RandomHelper">
+            <property name="Extends" value="mineHubcap"/>
+            <property name="CustomIcon" value="mineHubcap"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMineAirFilter50RandomHelper">
+            <property name="Extends" value="mineAirFilter"/>
+            <property name="CustomIcon" value="mineAirFilter"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <block name="zztongLandMineAirFilter10RandomHelper">
+            <property name="Extends" value="mineAirFilter"/>
+            <property name="CustomIcon" value="mineAirFilter"/>
+            <property name="CustomIconTint" value="ff8080"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+
+        <!-- *************************************************************************
+            Booby-Trapped Survivor Chest
+        ************************************************************************** -->
+
+        <!-- ****** TEMP REMOVED ******
+        <block name="zztongTrappedChest">
+            <property name="Extends" value="mineCookingPot"/>
+            <property name="CustomIcon" value="cntChest01"/>
+            <property name="CustomIconTint" value="6BB6E8"/>
+            <property name="Shape" value="Ext3dModel"/>
+            <property name="Mesh" value="models"/>
+            <property name="Model" value="LootContainers/chest01" param1="main_mesh"/> 
+            <property name="Explosion.EntityDamage" value="200"/>
+            <property name="ItemTypeIcon" value="explosion"/>
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        -->
 
     </append>
 </blocks>

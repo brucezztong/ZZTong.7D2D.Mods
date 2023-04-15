@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="2" />
-  <property name="Tags" value="snow,desert,commercial,pine_forest" />
+  <property name="Tags" value="commercial" />
   <property name="POIMarkerSize" value="3, 6, 1#5, 3, 4#9, 3, 12#8, 2, 13#4, 2, 6#3, 2, 4#2, 4, 4#1, 1, 1#1, 1, 1#1, 1, 1" />
   <property name="POIMarkerStart" value="7, 3, 25#7, 10, 18#49, 3, 16#38, 2, 8#1, 3, 33#56, 3, 53#55, 3, 1#22, 10, 16#12, 3, 11#38, 3, 46" />
   <property name="POIMarkerGroup" value="side,roof,campsite,accident,dumpster,powerbox,sign,crate1,crate2,crate3" />
@@ -47,11 +47,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="611835" />
-    <property name="TotalTriangles" value="561829" />
+    <property name="TotalVertices" value="623837" />
+    <property name="TotalTriangles" value="574388" />
     <property class="BlockEntities">
-      <property name="Vertices" value="508183" />
-      <property name="Triangles" value="494190" />
+      <property name="Vertices" value="520185" />
+      <property name="Triangles" value="506749" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="85851" />

@@ -2,7 +2,7 @@ TRIVIA / BEHIND THE SCENES
 
 I occassionally (okay, very rarely) get asked about a POI, so here's the
 background for each one. In general, I make POIs that do not have dungeon
-paths because when I play I tend to either ignore them, or be to dense to
+paths because when I play I tend to either ignore them, or am to dense to
 follow them. I also tend to avoid parkour. By my reasoning, why would I
 risk falling when I can just fix the steps? And, by fixing the steps, it
 becomes possible to bring my motorcycle to the top of the Dishong Tower.
@@ -34,6 +34,12 @@ APARTMENT_03
 This POI is based on my impressions of main set for the Melrose Place TV Show.
 I was never a Melrose Place fan, but saw a couple of episodes and liked the
 building.
+
+BALLOON SAFARI 01
+
+The South West USA has lots of hot air balloon events. I was reminded of this
+by a picture and thought it might be neat if some survivors had attempted to
+escape the Navezgane region using a balloon.
 
 BAR POOL 01
 
@@ -308,6 +314,27 @@ This is another house made intentionally to support a higher tier. Again,
 floor plans were consulted, but the layout was more dynamicly done instead
 of trying to recreate an existing house.
 
+HOUSE 18
+
+I thought to make a cabin on posts. This is what came to mind.
+
+HOUSE 19
+
+This was an attempt to make a plot where mobile homes were being installed at
+the time the apacolpyse started.
+
+HOUSE 20
+
+This was an attempt to turn a barn into two studio apartments. It turned out
+to be a bit more cramped than anticipated. The layout just didn't work as two
+apartments, so I turned it into a single residence at it worked out better.
+
+HOUSE 21
+
+I had an idea for a POI where somebody built up a perimeter around their house
+as sort of a half-hearted defense scheme. This is the POI that resulted. It was
+somewhat confined by my need for a POI with a small footprint.
+
 KZMB RADIO 01 & KZMB RADIO DESTROYED
 
 I made this POI after I realized we didn't have any POIs for media companies.
@@ -358,6 +385,13 @@ making offices in upper floors as the number of triangles and vertices would
 have gone higher than I think some user systems would comfortably support.
 The end result is another mall-like collection of shops, but in more of a
 classic downtown vibe.
+
+INTERSECTION 04
+
+I was inspired to make some survivor content that could perhaps be turned into
+bandit content at a later date. I thought a fortress made out of the ruins of
+buildings might be neat. I started with some TFP ruined buildings and then
+customized heavily to get them to fit into my Intersection-specific Tile.
 
 KZTV 01
 
@@ -433,6 +467,12 @@ vanilla Tiles in A20 don't give it a lot of chance to be placed. The
 destroyed version was created by taking out my frustrations with a rocket
 launcher.
 
+OIL PUMP JACK 01
+
+This started off as an idea for a biome decoration and ended up being
+something I thought would fit in rural and wilderness POIs too. The
+POI version has a little bit more than a decoration.
+
 PHARMACY 01 & PHARMACY 01 DESTROYED
 
 Any similarity to the real life "Rite Aid" Pharmacy is purely intentional.
@@ -461,6 +501,29 @@ This POI resulted as part of my desire to make T5 content for the Wilderness.
 Drawn like moths, we drift into the city... The timeless old attraction...
 Err, yeh. Let's show the wilderness some love.
 
+REBIRTH 01
+
+I get a lot of feedback from Rebirth players and I wanted to make something
+to thank them. After talking with FuriousRamsay, the plan was to make a POI
+that he could convert to use with his bandits. He wanted it set in the
+wilderness and thought he'd turn it into a Trader. The POI distributed with
+the modlet is a ruined Trader infested with zombies that can be converted into
+a base/trader for bandits in the Rebirth overhaul. As for the design, I
+reasoned bandits/traders in the wilderness would want an established location
+and TFP's various Ranger Stations came to mind, but with a more defensible
+perimeter. I also noticed some trader locations appeared to have towed in
+trailers and I went that way too. At this point I was committed to reusing
+TFP assets, so I decided to add a TFP food wagon as bandits would get a
+quick kitchen to help feed their forces that way. After that, a liberal amount
+of customization to those elements plus integration with walls was most of
+the work.
+
+RED ROCKET 01
+
+This is very much a tribute to the Red Rocket found near the start of the
+Fallout 4 game. I know there are Fallout 4 fans who play 7D2D and I thought
+they might like this POI. Dogmeat is there too, though he's not so friendly.
+
 REMNANT HOUSE 01
 
 I made this POI largely just goofing off waiting for A20. Somebody had made a
@@ -486,6 +549,13 @@ SHELTER 01 & SHELTER 01 DESTROYED
 I created this POI after trying to think what would happen to a Salvation Army
 homeless shelter during a zombie apocolypse. It was made for A19 and was made
 bigger during the A20 conversion.
+
+SHERIFF 01
+
+I received several requests for a police department, but I felt TFP already
+had that covered. A county sheriff, on the other hand, seemed unfilled. It
+is perhaps sized for a larger force than is really needed, but if you count
+the regional jail in the basement it might be about right.
 
 SKYSCRAPER 01 & SKYSCRAPER 01 DESTROYED
 
@@ -581,6 +651,31 @@ I finished up this run of 10 POIs by imortalizing a local business that has
 long since failed. They combined a bar with a laundromat. We used to say it
 was a place where you and your laundry could get loaded at the same time.
 It was a clever idea; still failed. Made for A20 using A19.
+
+STORE XS 11 - NAMASTE YOGA
+
+There was no big inspiration for this POI beyond the need to fill commercial
+lots of the XS size since they're not found on TFP tiles. 
+
+STORE XS 12 - LOCO MOJO DOJO
+
+Another POI to satisfy a need for XS Stores for Commercial. Plus, it is a fun
+store name to say.
+
+STORE XS 13 - COMMERCIAL CONSTRUCTION
+
+There was no grand inspiration for this POI.
+
+STORE XS 14 - THRIFT STORE AND OFFICES
+
+It wasn't intentional, but this turned out to be similar to a filler building
+I put on an Intersection Tile. A Thrift store had been on my to-do list for a
+while and the size of the idea seemed to match this building.
+
+STORE XS 15 - TATTOO PARLOR AND UPS STORE
+
+These two stores had hung out on my to-do list forever and finally found some
+motivation to make them.
 
 STORMWATER DETENTION POND 01
 
@@ -692,6 +787,17 @@ temptation to fill a warehouse with crates and there is a large variety of
 loot crates that can be used. In ZZ010 the Warehouse got some custom Crate
 blocks in response to criticism about painting wood blocks. Thanks for the
 feedback and the push.
+
+WAREHOUSE 02
+
+I was anxious to make a warehouse after making some custom blocks from the TFP
+loot crates. I was inspired to turn TFP's remnant_industrial_04 into something
+beyond a pile of rubble. I didn't end up using the exact same footprint, but
+the exterior has some resemblance.
+
+WAREHOUSE 03
+
+This is based on a local business in real life, but the name was changed.
 
 WIND TURBINE 01
 
