@@ -1,0 +1,19 @@
+<items>
+
+    <!-- Remove the Water Penalty from Corn on the Cob, else Grilled Meat makes the recipe moot. -->
+    <!-- Lower the amount of food given because a single ear of corn is easy to get. -->
+    <remove xpath="/items/item[@name='foodCornOnTheCob']/effect_group/triggered_effect[@stat='water']" />
+    <remove xpath="/items/item[@name='foodCornOnTheCob']/effect_group/display_value[@name='$waterAmountAdd']" />
+    <setattribute xpath="/items/item[@name='foodCornOnTheCob']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">5</setattribute>
+
+    <!-- Remove the Water Penalty from Baked Potato, else Grilled Meat makes the recipe moot. -->
+    <!-- Lower the amount of food given because a single ear of corn is easy to get. -->
+    <remove xpath="/items/item[@name='foodBakedPotato']/effect_group/triggered_effect[@stat='water']" />
+    <remove xpath="/items/item[@name='foodBakedPotato']/effect_group/display_value[@name='$waterAmountAdd']" />
+    <setattribute xpath="/items/item[@name='foodBakedPotato']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">5</setattribute>
+
+    <!-- Pumpkin Bread needs some love; while it's an easy recipe, nobody makes it. -->
+    <setattribute xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">20</setattribute>
+    <setattribute xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='foodHealthAmount']" name="value">10</setattribute>
+
+</items>

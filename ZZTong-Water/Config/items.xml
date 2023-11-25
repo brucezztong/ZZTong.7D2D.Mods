@@ -1,0 +1,18 @@
+<items>
+
+    <!-- Change the Hand (meleeHandPlayer) to collect water instead of drink water. -->
+    <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Sound_start']" name="value">bucketfill_water</setattribute>
+
+    <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Description']" name="value">lblContextActionTake</setattribute>
+
+    <append xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']">
+        <property name="Create_item" value="drinkJarRiverWater"/>
+        <property name="Create_item_count" value="1"/>
+    </append>
+
+    <remove xpath="/items/item[@name='meleeHandPlayer']/effect_group[@name='Drink']" />
+
+    <!-- Change the River (Mirky) Water Stacking to 10 to match the other waters. -->
+    <setattribute xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']" name="value">10</setattribute>
+
+</items>

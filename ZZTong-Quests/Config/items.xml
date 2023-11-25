@@ -1,0 +1,12 @@
+﻿<items>
+	<append xpath="/items">
+
+        <item name="qt_zztong">
+            <property name="Extends" value="treasureQuestMaster"/>
+            <property class="Action0">
+                <property name="QuestGiven" value="treasure_zztong"/>
+            </property>
+        </item>
+
+    </append>
+</items>

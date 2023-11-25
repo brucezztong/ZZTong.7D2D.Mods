@@ -1,0 +1,19 @@
+<entity_classes>
+
+    <!-- Make Deer (Stag, Doe) faster, tougher, more perceptive and with more meat. -->
+    <!-- The goal here is to make them a more difficult hunting challenge, but worthy of the reward. -->
+
+    <setattribute xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='SightRange']" name="value">60</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='MoveSpeedPanic']" name="value">2.0</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='animalStag']/effect_group/passive_effect[@name='HealthMax']" name="value">350</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='foodRawMeat' and @tag='butcherHarvest']" name="count">35</setattribute>
+
+    <setattribute xpath="/entity_classes/entity_class[@name='animalDoe']/effect_group/passive_effect[@name='HealthMax']" name="value">300</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='foodRawMeat' and @tag='butcherHarvest']" name="count">30</setattribute>
+
+    <!-- Lower the meat available from chickens, rabbits, and snakes. -->
+    <setattribute xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='foodRawMeat' and @tag='butcherHarvest']" name="count">5</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='foodRawMeat' and @tag='butcherHarvest']" name="count">5</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='foodRawMeat' and @tag='butcherHarvest']" name="count">5</setattribute>
+
+</entity_classes>

@@ -1,0 +1,7 @@
+﻿<lootcontainers>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupTreasureMaps']">
+        <item name="qt_zztong"/>
+	</append>
+
+</lootcontainers>

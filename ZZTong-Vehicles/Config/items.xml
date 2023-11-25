@@ -1,0 +1,18 @@
+<items>
+
+    <!-- Alter the Vehicle Durability
+    Vehicle     Original        Modified (x3)
+    Bicycle     1500            4500
+    Minibike    2000            6000
+    Motorcycle  4000            12000
+    4x4         8000            24000
+    Gyrocopter  3500            10500
+    -->
+
+    <setattribute xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">4500</setattribute>
+    <setattribute xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">6000</setattribute>
+    <setattribute xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">12000</setattribute>
+    <setattribute xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">24000</setattribute>
+    <setattribute xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">10500</setattribute>
+
+</items>

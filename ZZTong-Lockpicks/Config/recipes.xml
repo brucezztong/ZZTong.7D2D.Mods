@@ -1,0 +1,11 @@
+<recipes>
+
+    <!-- Have the LockPicks recipe return 5 LockPicks instead of 1. -->
+    <setattribute xpath="/recipes/recipe[@name='resourceLockPick']" name="count">5</setattribute>
+
+    <!-- Apply the same ratio of resources to the LockPick Bundle. -->
+    <!-- That is, the bundle makes 40 lockpicks now for only 8 Iron and Mech Parts... 1/5th the cost. -->
+    <setattribute xpath="/recipes/recipe[@name='resourceLockPickBundle']/ingredient[@name='resourceForgedIron']" name="count">8</setattribute>
+    <setattribute xpath="/recipes/recipe[@name='resourceLockPickBundle']/ingredient[@name='resourceMechanicalParts']" name="count">8</setattribute>
+
+</recipes>

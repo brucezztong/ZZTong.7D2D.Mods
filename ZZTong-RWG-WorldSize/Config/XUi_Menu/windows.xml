@@ -1,0 +1,6 @@
+<windows>
+
+    <set xpath="/windows/window[@name='newContinueGame']/rect/rect[@name='newContent']/rect[@controller='WorldGenerationWindowGroup']/grid/rect/combobox[@name='WorldSize']/@values">5120,6144,7168,8192,9216,10240,11264,12288,13312,14366,15360</set>
+    <set xpath="/windows/window[@name='worldGeneration']/rect/rect[@name='generationControls']/rect/grid/rect/combobox[@name='WorldSize']/@values">5120,6144,7168,8192,9216,10240,11264,12288,13312,14366,15360</set>
+
+</windows>

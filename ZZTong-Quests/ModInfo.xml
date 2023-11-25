@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="ZZTong-Quests" />
+        <DisplayName value="ZZTong-Quests" />
+		<Description value="Adds additional quests to the game." />
+		<Author value="ZZTong" />
+		<Version value="21.0" />
+        <Website value="none" />
+</xml>
+

@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+zzUnfilteredDewCollector,blocks,block,,,Unfiltered Dew Collector,,Tausammler,Recolector de rocío,Ramasseur de rosée,Raccoglitore di rugiada,水滴収集器,이슬 수집기,Kolektor rosy,Coletor de orvalho,Коллектор росы,Çiy Toplayıcı,露水收集器,露水收集器

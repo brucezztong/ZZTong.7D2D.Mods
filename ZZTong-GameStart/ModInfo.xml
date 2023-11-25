@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="ZZTong-GameStart" />
+        <DisplayName value="ZZTong-GameStart" />
+		<Description value="Configures the game to suit my preferences." />
+		<Author value="ZZTong" />
+		<Version value="21.0" />
+        <Website value="none" />
+</xml>
+
