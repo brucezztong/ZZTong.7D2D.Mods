@@ -1,0 +1,8 @@
+<blocks>
+
+    <remove xpath="/blocks/block[@name='cntBuriedFoodStashChest']/property[@name='CreativeMode']" />
+    <remove xpath="/blocks/block[@name='cntBuriedWeaponChest']/property[@name='CreativeMode']" />
+    <remove xpath="/blocks/block[@name='cntBuriedLootStashChest']/property[@name='CreativeMode']" />
+    <remove xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']/property[@name='CreativeMode']" />
+
+</blocks>
