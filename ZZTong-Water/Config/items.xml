@@ -15,4 +15,17 @@
     <!-- Change the River (Mirky) Water Stacking to 10 to match the other waters. -->
     <setattribute xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']" name="value">10</setattribute>
 
+    <!-- Give Boiled Drinking Water a Dysentery Chance -->
+    <append xpath="/items/item[@name='drinkJarBoiledWater']/effect_group[@name='Drink Tier 0/1']">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="3"/>
+        <display_value name="dDysenteryRisk" value=".03"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchDrink">
+        <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+        </triggered_effect>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="player#vomit">
+        <requirement name="!HasBuff" buff="buffWaterPurifier"/>
+        </triggered_effect>
+    </append>
+
 </items>
