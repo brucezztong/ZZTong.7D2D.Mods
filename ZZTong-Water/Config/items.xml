@@ -1,6 +1,8 @@
 <items>
 
     <!-- Change the Hand (meleeHandPlayer) to collect water instead of drink water. -->
+    <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Delay']" name="value">6</setattribute>
+
     <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Sound_start']" name="value">bucketfill_water</setattribute>
 
     <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Description']" name="value">lblContextActionTake</setattribute>
