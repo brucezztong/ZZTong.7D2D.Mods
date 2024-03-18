@@ -19,8 +19,8 @@
 
     <!-- Give Boiled Drinking Water a Dysentery Chance -->
     <append xpath="/items/item[@name='drinkJarBoiledWater']/effect_group[@name='Drink Tier 0/1']">
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="3"/>
-        <display_value name="dDysenteryRisk" value=".03"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="5"/>
+        <display_value name="dDysenteryRisk" value=".05"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchDrink">
         <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>

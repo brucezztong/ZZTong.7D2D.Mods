@@ -5,13 +5,16 @@
 
     <append xpath="/blocks">
         <block name="zzUnfilteredDewCollector">
-            <property name="Extends" value="campfire" param1="Class"/>
+            <property name="Extends" value="cntDewCollector"/>
             <property name="ConvertToItem" value="drinkJarRiverWater"/>
             <property name="CustomIcon" value="cntDewCollector"/>
-            <property name="Model" value="Entities/Furniture/collectorDewPrefab"/>
+            <!-- property name="Model" value="Entities/Furniture/collectorDewPrefab"/ -->
             <property name="HeatMapStrength" value="0.5"/>
             <property name="HeatMapTime" value="4000"/>
             <property name="HeatMapFrequency" value="1000"/>
+            <!-- property name="SortOrder1" value="B281"/ -->
+            <!-- property name="SortOrder2" value="0100"/ -->
+            <!-- property name="WorkstationWindow" value="dewcollector"/ -->
         </block>
     </append>
 
