@@ -1,0 +1,15 @@
+<recipes>
+
+    <!-- Allow Gold and Silver to be Converted into Brass -->
+    <append xpath="/recipes">
+        <recipe name="resourceScrapBrass" count="2000" craft_area="chemistryStation" tags="chemStationCrafting">
+            <ingredient name="resourceGoldNugget" count="1"/>
+        </recipe>
+
+        <recipe name="resourceScrapBrass" count="1000" craft_area="chemistryStation" tags="chemStationCrafting">
+            <ingredient name="resourceSilverNugget" count="1"/>
+        </recipe>
+
+    </append>
+
+</recipes>
