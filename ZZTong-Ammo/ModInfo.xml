@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="ZZTong-Ammo" />
+        <DisplayName value="ZZTong-Ammo" />
+		<Description value="Creates an alternative ways to make ammo in a traderless game." />
+		<Author value="ZZTong" />
+		<Version value="21.0" />
+        <Website value="none" />
+</xml>
+
