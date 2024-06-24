@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-		<Name value="ZZTong-RWG-Settlements" />
-        <DisplayName value="ZZTong-RWG-Settlements" />
-		<Description value="Customizes vanilla settlements" />
-		<Author value="ZZTong" />
-		<Version value="21.0" />
-        <Website value="none" />
+	<Name value="ZZTong-RWG-Settlements" />
+	<DisplayName value="ZZTong-RWG-Settlements" />
+	<Description value="Customizes vanilla settlements" />
+	<Author value="ZZTong" />
+	<Version value="1.0" />
+	<Website value="none" />
 </xml>
 

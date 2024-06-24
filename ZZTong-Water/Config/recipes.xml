@@ -5,32 +5,4 @@
     <setattribute xpath="/recipes/recipe[@name='drinkJarPureMineralWater']" name="craft_area">chemistryStation</setattribute>
     <removeattribute xpath="/recipes/recipe[@name='drinkJarPureMineralWater']/@craft_tool" />
 
-    <!-- Make a Water Filter craftable so we don't have to depend on a Trader. -->
-    <append xpath="/recipes">
-        <recipe name="resourceWaterFilter" count="1" tags="learnable,workbenchCrafting">
-            <ingredient name="resourceCloth" count="20"/>
-            <ingredient name="resourceScrapPolymers" count="25"/>
-            <ingredient name="resourceCrushedSand" count="10"/>
-            <ingredient name="resourceRockSmall" count="10"/>
-            <ingredient name="resourceCoal" count="10"/>
-        </recipe>
-    </append>
-
-    <!-- Make an Unfiltred Dew Collector possible so you can collect Murky Water from dew without a filter. -->
-    <append xpath="/recipes">
-        <recipe name="zzUnfilteredDewCollector" count="1" tags="learnable,workbenchCrafting">
-            <ingredient name="resourceScrapPolymers" count="100"/>
-            <ingredient name="resourceMetalPipe" count="4"/>
-            <ingredient name="resourceDuctTape" count="4"/>
-        </recipe>
-    </append>
-
-    <!-- Make is possible to add a Filter to an Unflitered Dew Collector. -->
-    <append xpath="/recipes">
-        <recipe name="cntDewCollector" count="1" tags="learnable,workbenchCrafting">
-            <ingredient name="resourceWaterFilter" count="1"/>
-            <ingredient name="zzUnfilteredDewCollector" count="1"/>
-        </recipe>
-    </append>
-
 </recipes>

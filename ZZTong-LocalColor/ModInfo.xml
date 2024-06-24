@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-		<Name value="ZZTong-LocalColor" />
-        <DisplayName value="ZZTong-LocalColor" />
-		<Description value="Adds notes and advertisements to loot for local color." />
-		<Author value="ZZTong" />
-		<Version value="21.0" />
-        <Website value="none" />
+	<Name value="ZZTong-LocalColor" />
+	<DisplayName value="ZZTong-LocalColor" />
+	<Description value="Adds notes and advertisements to loot for local color." />
+	<Author value="ZZTong" />
+	<Version value="1.0" />
+	<Website value="none" />
 </xml>
 

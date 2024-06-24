@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-    <Name value="ZZTong-Jokes" />
-    <DisplayName value="ZZTong-Jokes" />
-    <Version value="21.0.000" />
-    <Description value="Adds zombie jokes to the loading screen." />
-    <Author value="ZZTong" />
-    <Website value="None" />
-    <!-- Dependencies: None -->
+	<Name value="ZZTong-Jokes" />
+	<DisplayName value="ZZTong-Jokes" />
+	<Version value="1.0" />
+	<Description value="Adds zombie jokes to the loading screen." />
+	<Author value="ZZTong" />
+	<Website value="None" />
 </xml>
