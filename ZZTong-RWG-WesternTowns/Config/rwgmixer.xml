@@ -7,41 +7,29 @@
 
     <append xpath="/rwgmixer/world[@name='tiny']">
         <property class="oldwest">
-            <property name="few" value="1"/>
-            <property name="default" value="1"/>
-            <property name="many" value="1"/>			
-            <property name="mintiles" value="1"/>
-            <property name="maxtiles" value="2"/>
+            <property name="count" value="1, 1, 1"/>
+            <property name="tiles" value="1, 2"/>
         </property>
     </append>
 
     <append xpath="/rwgmixer/world[@name='small']">
         <property class="oldwest">
-            <property name="few" value="1"/>
-            <property name="default" value="1"/>
-            <property name="many" value="1"/>			
-            <property name="mintiles" value="2"/>
-            <property name="maxtiles" value="3"/>
+            <property name="count" value="1, 1, 1"/>
+            <property name="tiles" value="2, 3"/>
         </property>
     </append>	
 
     <append xpath="/rwgmixer/world[@name='medium']">
         <property class="oldwest">
-            <property name="few" value="1"/>
-            <property name="default" value="1"/>
-            <property name="many" value="1"/>
-            <property name="mintiles" value="3"/>
-            <property name="maxtiles" value="4"/>
+            <property name="count" value="1, 1, 2"/>
+            <property name="tiles" value="3, 4"/>
         </property>
     </append>	
 
     <append xpath="/rwgmixer/world[@name='large']">
         <property class="oldwest">
-            <property name="few" value="1"/>
-            <property name="default" value="1"/>
-            <property name="many" value="1"/>			
-            <property name="mintiles" value="4"/>
-            <property name="maxtiles" value="5"/>
+            <property name="count" value="1, 2, 2"/>
+            <property name="tiles" value="4, 5"/>
         </property>
     </append>
 
