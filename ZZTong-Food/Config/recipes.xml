@@ -1,22 +1,6 @@
 <recipes>
 
-    <!-- Crude Cooking Tools ideally they would wear out faster. -->
-    <append xpath="/recipes">
-
-        <recipe name="toolCookingPot" count="1" craft_time="60">
-            <ingredient name="resourceScrapIron" count="100"/>
-            <ingredient name="resourceClayLump" count="20"/>
-        </recipe>
-
-        <recipe name="toolCookingGrill" count="1" craft_time="60">
-            <ingredient name="resourceScrapIron" count="100"/>
-            <ingredient name="resourceClayLump" count="20"/>
-        </recipe>
-
-    </append>
-
-
-    <!-- Hard Boiled Eggs are now done in batches of 5 eggs with 1 Jar of Water. -->
+    <!-- Hard Boiled Eggs are now done in batches of 6 eggs with 1 Jar of Water. -->
     <setattribute xpath="/recipes/recipe[@name='foodEggBoiled']" name="count">6</setattribute>
     <setattribute xpath="/recipes/recipe[@name='foodEggBoiled']/ingredient[@name='foodEgg']" name="count">6</setattribute>
 
