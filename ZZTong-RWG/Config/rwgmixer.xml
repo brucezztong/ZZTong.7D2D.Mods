@@ -1,26 +1,72 @@
 ﻿<rwgmixer>
     <!-- **************************************************************
+        Make the oldwest settlement a little bigger...
+    ****************************************************************-->
+
+    <remove xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']"></remove>
+    <remove xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']"></remove>
+    <remove xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']"></remove>
+    <remove xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']"></remove>
+
+
+    <append xpath="/rwgmixer/world[@name='tiny']">
+        <property class="oldwest">
+            <property name="count" value="1, 1, 1"/>
+            <property name="tiles" value="1, 2"/>
+        </property>
+    </append>
+
+    <append xpath="/rwgmixer/world[@name='small']">
+        <property class="oldwest">
+            <property name="count" value="1, 1, 1"/>
+            <property name="tiles" value="2, 3"/>
+        </property>
+    </append>
+
+    <append xpath="/rwgmixer/world[@name='medium']">
+        <property class="oldwest">
+            <property name="count" value="1, 1, 2"/>
+            <property name="tiles" value="3, 4"/>
+        </property>
+    </append>
+
+    <append xpath="/rwgmixer/world[@name='large']">
+        <property class="oldwest">
+            <property name="count" value="1, 2, 2"/>
+            <property name="tiles" value="4, 5"/>
+        </property>
+    </append>
+
+    <!-- **************************************************************
         Adjusts outskirts for settlements.
     ****************************************************************-->
 
     <!-- Adds a wrapper to Country Town to make it a little larger. -->
+    <!--
 	<append xpath="/rwgmixer/township[@name='countrytown']">
         <property name="outskirt_district" value="countryresidential" />
 	</append>
+    -->
 
     <!-- Prevents dead Tile spots in the countrytown created by the wrapper. -->
+    <!--
     <setattribute xpath="/rwgmixer/district[@name='countryresidential']/property[@name='district_spawn_weight']" name="value">0</setattribute>
+    -->
 
     <!-- NOTE: The following was causing gaps in Town Tile placement. This is reported as an RWG bug. -->
     <!-- NOTE: Remove the following line of XML if you are seeing the bug. -->
     <!-- Adds residential to the list of possible wrappers for a Town for more variety. -->
     <!-- NOTE: This can mess with Trader Placement as they don't get placed in Residential districts. -->
+    <!--
     <set xpath="/rwgmixer/township[@name='town']/property[@name='outskirt_district']/@value">rural,residential</set>
+    -->
 
     <!-- NOTE: The following was causing gaps in City Tile placement. This is reported as an RWG bug. -->
     <!-- NOTE: Remove the following line of XML if you are seeing the bug. -->
     <!-- Changes the wrapper of a city to residential because there's already a lot of rural. -->
+    <!--
     <set xpath="/rwgmixer/township[@name='city']/property[@name='outskirt_district']/@value">rural,residential</set>
     <setattribute xpath="/rwgmixer/district[@name='residential']/property[@name='district_spawn_weight']" name="value">0</setattribute>
+    -->
 
 </rwgmixer>
