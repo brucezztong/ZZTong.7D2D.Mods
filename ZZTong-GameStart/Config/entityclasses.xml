@@ -1,9 +1,9 @@
 <entityclasses>
 
-    <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']" name="value">noteDuke01,resourceYuccaFibers=20,resourceWood=26,resourceRockSmall=8,resourceFeather</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']" name="value">noteDuke01,resourceYuccaFibers=35,resourceWood=36,resourceRockSmall=10,resourceFeather</setattribute>
 
-    <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']" name="value">noteDuke01,resourceYuccaFibers=20,resourceWood=26,resourceRockSmall=8,resourceFeather</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']" name="value">noteDuke01,resourceYuccaFibers=35,resourceWood=36,resourceRockSmall=10,resourceFeather</setattribute>
 
-    <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']" name="value">noteDuke01,resourceYuccaFibers=20,resourceWood=26,resourceRockSmall=8,resourceFeather</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']" name="value">noteDuke01,resourceYuccaFibers=35,resourceWood=36,resourceRockSmall=10,resourceFeather</setattribute>
 
 </entityclasses>
