@@ -38,6 +38,24 @@
     </append>
 
     <!-- **************************************************************
+        Limit traders to just one of each per map.
+    ****************************************************************-->
+
+    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_rekt']" />
+    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_jen']" />
+    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_bob']" />
+    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_hugh']" />
+    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_joel']" />
+
+    <append xpath="/rwgmixer">
+        <prefab_spawn_adjust partial_name="trader_rekt" biomeTags="forest" bias="20" min_count="1" max_count="1"/>
+        <prefab_spawn_adjust partial_name="trader_jen" biomeTags="burntforest" bias="20" min_count="1" max_count="1"/>
+        <prefab_spawn_adjust partial_name="trader_bob" biomeTags="desert" bias="20" min_count="1" max_count="1"/>
+        <prefab_spawn_adjust partial_name="trader_hugh" biomeTags="snow" bias="20" min_count="1" max_count="1"/>
+        <prefab_spawn_adjust partial_name="trader_joel" biomeTags="wasteland" bias="20" min_count="1" max_count="1"/>
+    </append>
+
+    <!-- **************************************************************
         Adjusts outskirts for settlements.
     ****************************************************************-->
 
