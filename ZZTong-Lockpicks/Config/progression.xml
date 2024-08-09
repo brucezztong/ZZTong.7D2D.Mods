@@ -1,4 +1,5 @@
 <progression>
 
     <set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LockPickBreakChance']/@value">.3,.5</set>
+
 </progression>
