@@ -1,5 +1,6 @@
 <progression>
 
+    <!-- We want a higher chance of success. Breaking picks is silly and boring. -->
     <set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LockPickBreakChance']/@value">.3,.5</set>
 
 </progression>
