@@ -23,8 +23,10 @@ A Vanilla pick will break 50% of the time, or 40%, 30%, and 20% with Perks.
 This modlet changes that to 20%, 10%, and 0% with Perks.
 
 In real life it is more about having the right kind of tool and the knowledge
-to use them. Then experience makes you faster. Picking a real lock is only
+to use them and then experience makes you faster. Picking a real lock is only
 fast for a person with a lot of experience and who is using the right tools.
+Unless you're The Lockpicking Lawyer (of YouTube fame) you have no right to be
+complaining about lockpicking in game taking too long. (My opinion, of course.)
 I think the game would be better if you assembled a kit of different kinds of
 tools to use and forget the breaking of those tools. For instance, in the game
 you can pick things that do not have pin and tumbler locks, such as a
