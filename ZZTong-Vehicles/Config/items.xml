@@ -12,7 +12,7 @@
     <setattribute xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">4500</setattribute>
     <setattribute xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">6000</setattribute>
     <setattribute xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">12000</setattribute>
-    <setattribute xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">24000</setattribute>
+    <setattribute xpath="/items/item[@name='vehicleTruck4x4Placeable']/effect_group/passive_effect[@name='DegradationMax']" name="value">24000</setattribute>
     <setattribute xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group/passive_effect[@name='DegradationMax']" name="value">10500</setattribute>
 
 </items>
