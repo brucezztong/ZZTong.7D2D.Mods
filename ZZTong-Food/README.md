@@ -2,7 +2,7 @@
 
 This modlet really just satisfies my tastes, so to speak, related to cooking conveniences.
 I changed the recipe for Boiled Eggs because nobody really boils eggs individually, so this
-lets you boil eggs with one unit of water.
+lets you boil six eggs with one unit of water.
 
 I also don't like being unable to can food. My mother does it, though I admit she doesn't
 do it over a campfire. Then again, she doesn't make Blueberry Pie over a campfire either.
