@@ -17,4 +17,4 @@ This modlet arguably makes the first couple of days of survival easier as you're
 not tied to raiding POIs to get jars of murky water. My goal was to continue
 to have risk from boiled water as a way of lengthening the water struggle, trying
 to keep a game-play, management element present, but also allow a human being to
-carry water away from a source like humanity had done since before recorded history.
+carry water away from a source like humanity has done since before recorded history.
