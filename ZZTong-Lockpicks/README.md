@@ -4,13 +4,13 @@
 
 This changes the number of lockpicks crafted to be 5 times greater than vanilla.
 
-Vanilla recipe is 1 Iron + 1 Mech Parts = 1 Lockpick
-Modified recipe is 1 Iron + 1 Mech Parts = 5 Lockpicks
+- Vanilla recipe is 1 Iron + 1 Mech Parts = 1 Lockpick
+- Modified recipe is 1 Iron + 1 Mech Parts = 5 Lockpicks
 
 This new ratio applies to the Lockpick Bundle too.
 
-Vanilla recipe is 40 Iron + 40 Mech Parts = 40 Lockpicks
-Modified recipe is 8 Iron + 8 Mech Parts = 40 Lockpicks
+- Vanilla recipe is 40 Iron + 40 Mech Parts = 40 Lockpicks
+- Modified recipe is 8 Iron + 8 Mech Parts = 40 Lockpicks
 
 This was done because the Vanilla cost to open loot chests is too high, plus
 real lockpicks don't require this amount of resources. Carrying the damn things
