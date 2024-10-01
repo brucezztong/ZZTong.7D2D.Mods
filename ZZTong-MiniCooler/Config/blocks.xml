@@ -1,6 +1,0 @@
-<blocks>
-
-    <!-- Add the Mini Beverage Cooler to the list of blocks supported by the Appliances block. -->
-    <append xpath="/blocks/block[@name='appliancesVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntMiniBeverageCooler</append>
-
-</blocks>
