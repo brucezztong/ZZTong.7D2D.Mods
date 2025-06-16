@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<items>
-
-    <!-- Honey: Decrease ability to cure infection. -->
-    <setattribute xpath="/items/item[@name='foodHoney']/effect_group/display_value[@name='dCureInfection']" name="value">.01</setattribute>
-    <setattribute xpath="/items/item[@name='foodHoney']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">1</setattribute>
-
-</items>

@@ -1,6 +1,0 @@
-<materials>
-
-    <!-- Make frames weaker so zombies can knock over player houses of cards. -->
-    <set xpath="/materials/material[@id='Mwood_weak_shapes']/property['MaxDamage']/@value">1</set>
-
-</materials>
