@@ -1,0 +1,9 @@
+<challenges>
+    <!-- We cannot drink from a water source anymore, so change the challenge. -->
+    <remove xpath="/challenges/challenge[@name='drinkWaterSource']/objective[@type='ChallengeStatAwarded']" />
+
+    <!-- Now just drink murky water for the challenge. -->
+    <append xpath="/challenges/challenge[@name='drinkWaterSource']">
+        <objective type="UseItem" item="drinkJarRiverWater" count="2"/>
+    </append>
+</challenges>

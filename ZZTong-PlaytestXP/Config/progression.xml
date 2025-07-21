@@ -1,7 +1,7 @@
 <progression>
 
-    <set xpath="/progression/level/@max_level">100</set>
-    <set xpath="/progression/level/@skill_points_per_level">3</set>
+    <set xpath="/progression/level/@max_level">150</set>
+    <set xpath="/progression/level/@skill_points_per_level">2</set>
     <set xpath="/progression/level/@clamp_exp_cost_at_level">50</set>
 
 </progression>
