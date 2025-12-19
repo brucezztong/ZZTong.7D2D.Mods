@@ -3,6 +3,11 @@
     <!-- Extend the duration of Zombie Loot Bags to 1 Hour of Real Time -->
     <setattribute xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']" name="value">300</setattribute>
     <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerNurse']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerLab']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerUtility']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerSoldier']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
+    <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerThug']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
     <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
     <setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']" name="value">3600</setattribute>
 

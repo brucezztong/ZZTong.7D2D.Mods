@@ -16,4 +16,28 @@
     <setattribute xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">20</setattribute>
     <setattribute xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='foodHealthAmount']" name="value">10</setattribute>
 
+    <!-- Add the Unlock information to the Canned Food to support the new recipes. -->
+
+    <append xpath="/items/item[@name='foodCanBeef']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodCanChicken']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodCanLamb']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodCanChili']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodCanTuna']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodCanPasta']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodCanSalmon']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+
 </items>
