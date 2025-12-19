@@ -1,6 +1,7 @@
 <items>
 
     <!-- Change the Hand (meleeHandPlayer) to collect water instead of drink water. -->
+    <!--
     <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Delay']" name="value">6</setattribute>
 
     <setattribute xpath="/items/item[@name='meleeHandPlayer']/property[@class='Action2']/property[@name='Sound_start']" name="value">bucketfill_water</setattribute>
@@ -13,9 +14,12 @@
     </append>
 
     <remove xpath="/items/item[@name='meleeHandPlayer']/effect_group[@name='Drink']" />
+    -->
 
     <!-- Change the River (Mirky) Water Stacking to 10 to match the other waters. -->
+    <!--
     <setattribute xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']" name="value">10</setattribute>
+    -->
 
     <!-- Give Boiled Drinking Water a Dysentery Chance -->
     <append xpath="/items/item[@name='drinkJarBoiledWater']/effect_group[@name='Drink Tier 0/1']">
