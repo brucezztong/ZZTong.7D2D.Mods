@@ -38,24 +38,49 @@
     </append>
 
     <!-- **************************************************************
-        Limit traders to just one of each per map.
+        Add an Industrial Park settlement...
     ****************************************************************-->
 
-    <!--
-    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_rekt']" />
-    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_jen']" />
-    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_bob']" />
-    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_hugh']" />
-    <remove xpath="/rwgmixer/prefab_spawn_adjust[@partial_name='trader_joel']" />
+<!--
+    <append xpath="/rwgmixer/world[@name='tiny']">
+        <property class="industrialpark">
+            <property name="count" value="0, 0, 1"/>
+            <property name="tiles" value="1, 1"/>
+        </property>
+    </append>
+
+    <append xpath="/rwgmixer/world[@name='small']">
+        <property class="industrialpark">
+            <property name="count" value="0, 1, 1"/>
+            <property name="tiles" value="1, 1"/>
+        </property>
+    </append>
+
+    <append xpath="/rwgmixer/world[@name='medium']">
+        <property class="industrialpark">
+            <property name="count" value="1, 1, 1"/>
+            <property name="tiles" value="1, 1"/>
+        </property>
+    </append>
+
+    <append xpath="/rwgmixer/world[@name='large']">
+        <property class="industrialpark">
+            <property name="count" value="1, 1, 1"/>
+            <property name="tiles" value="1, 1"/>
+        </property>
+    </append>
 
     <append xpath="/rwgmixer">
-        <prefab_spawn_adjust partial_name="trader_rekt" biomeTags="forest" bias="20" min_count="1" max_count="1"/>
-        <prefab_spawn_adjust partial_name="trader_jen" biomeTags="burntforest" bias="20" min_count="1" max_count="1"/>
-        <prefab_spawn_adjust partial_name="trader_bob" biomeTags="desert" bias="20" min_count="1" max_count="1"/>
-        <prefab_spawn_adjust partial_name="trader_hugh" biomeTags="snow" bias="20" min_count="1" max_count="1"/>
-        <prefab_spawn_adjust partial_name="trader_joel" biomeTags="wasteland" bias="20" min_count="1" max_count="1"/>
+        <township name="industrialpark">
+            <property name="spawn_trader" value="false"/>
+            <property name="spawn_gateway" value="false"/>
+            <property name="biomes" value="burntforest"/>
+            <property name="outskirt_district" value="industrial, .8"/>
+        </township>
     </append>
-    -->
+
+    <append xpath="/rwgmixer/district[@name='industrial']/property[@name='required_township']/@value">,industrialpark</append>
+-->
 
     <!-- **************************************************************
         Adjusts outskirts for settlements.
