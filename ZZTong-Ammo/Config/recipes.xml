@@ -26,6 +26,29 @@
             <ingredient name="resourceScrapPolymers" count="6"/>
         </recipe>
 
+        <!-- Alternative Arrow Recipes -->
+        <recipe name="ammoArrowIron" count="1" tags="packMuleCrafting">
+            <ingredient name="resourceArrowHeadIron" count="1"/>
+            <ingredient name="resourceScrapPolymers" count="2"/>
+        </recipe>
+
+        <recipe name="ammoBundleArrowIron" count="1" craft_time="240" tags="learnable,packMuleCrafting">
+            <ingredient name="resourceArrowHeadIron" count="80"/>
+            <ingredient name="resourceScrapPolymers" count="160"/>
+        </recipe>
+
+        <recipe name="ammoArrowSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceArrowHeadSteelAP" count="1"/>
+            <ingredient name="resourceWood" count="1"/>
+            <ingredient name="resourceFeather" count="1"/>
+        </recipe>
+
+        <recipe name="ammoBundleArrowSteelAP" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceArrowHeadSteelAP" count="80"/>
+            <ingredient name="resourceWood" count="80"/>
+            <ingredient name="resourceFeather" count="80"/>
+        </recipe>
+
     </append>
 
 </recipes>

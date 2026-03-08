@@ -15,3 +15,8 @@ from plastic and iron.
 Note: In real life people have made bullet casings from iron and plastic. They
 were not generally economical and/or reliable. My motiviation for this modlet was if
 I play with no traders, I cannot earn very many Dukes to melt down into casings.
+
+Some arrow options:
+
+Make Iron Arrows using Polymers (just like the steel arrow recipe)
+Make Steel Arrows using Wood and Feathers (just like the iron arrow recipe)
