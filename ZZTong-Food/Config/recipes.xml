@@ -73,6 +73,13 @@
             <ingredient name="foodCropGraceCorn" count="1"/>
         </recipe>
 
+        <!-- Chicken Food Alternative -->
+        <recipe name="resourceChickenFeed" count="10" tags="packMuleCrafting">
+            <ingredient name="foodCropCorn" count="1"/>
+            <ingredient name="resourceCrushedSand" count="5"/>
+            <ingredient name="resourceRockSmall" count="1"/>
+        </recipe>
+
     </append>
 
 </recipes>
