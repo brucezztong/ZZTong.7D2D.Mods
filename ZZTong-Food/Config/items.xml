@@ -36,7 +36,13 @@
     <append xpath="/items/item[@name='foodCanPasta']">
         <property name="UnlockedBy" value="craftingFood"/>
     </append>
+    <append xpath="/items/item[@name='foodCanPeas']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
     <append xpath="/items/item[@name='foodCanSalmon']">
+        <property name="UnlockedBy" value="craftingFood"/>
+    </append>
+    <append xpath="/items/item[@name='foodRottingFlesh']">
         <property name="UnlockedBy" value="craftingFood"/>
     </append>
 

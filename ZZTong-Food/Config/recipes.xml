@@ -48,6 +48,13 @@
             <ingredient name="drinkJarEmpty" count="1"/>
         </recipe>
 
+        <recipe name="foodCanPeas" count="1" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+            <ingredient name="foodCropCorn" count="3"/>
+            <ingredient name="resourceCropHopsFlower" count="3"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="1"/>
+            <ingredient name="drinkJarEmpty" count="1"/>
+        </recipe>
+
         <recipe name="foodCanSalmon" count="1" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
             <ingredient name="foodGrilledMeat" count="1"/>
             <ingredient name="resourceBone" count="1"/>
@@ -80,6 +87,12 @@
             <ingredient name="resourceRockSmall" count="1"/>
         </recipe>
 
+        <!-- Game With Friends Alternatives -->
+        <recipe name="foodRottingFlesh" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+            <ingredient name="foodRawMeat" count="2"/>
+            <ingredient name="resourceBone" count="2"/>
+            <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
     </append>
 
 </recipes>
