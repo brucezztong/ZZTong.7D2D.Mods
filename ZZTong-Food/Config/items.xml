@@ -45,5 +45,8 @@
     <append xpath="/items/item[@name='foodRottingFlesh']">
         <property name="UnlockedBy" value="craftingFood"/>
     </append>
+    <append xpath="/items/item[@name='resourceAcid']">
+        <property name="UnlockedBy" value="craftingVehicles"/>
+    </append>
 
 </items>

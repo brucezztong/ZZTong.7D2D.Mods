@@ -93,6 +93,15 @@
             <ingredient name="resourceBone" count="2"/>
             <ingredient name="resourceYuccaFibers" count="5"/>
         </recipe>
+
+        <recipe name="resourceAcid" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+            <ingredient name="ammoGasCan" count="1"/>
+            <ingredient name="resourceOilShale" count="1"/>
+            <ingredient name="resourceOil" count="1"/>
+            <ingredient name="resourceBone" count="2"/>
+            <ingredient name="foodCropYuccaFruit" count="5"/>
+        </recipe>
+
     </append>
 
 </recipes>

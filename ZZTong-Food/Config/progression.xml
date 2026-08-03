@@ -14,4 +14,12 @@
 
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/effect_group/passive_effect[@level='100,100']/@tags">,foodCanBeef,foodCanChicken,foodCanChili,foodCanLamb,foodCanPasta,foodCanPeas,foodCanSalmon,foodCanTuna,foodRottingFlesh</append>
 
+
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']/display_entry[@name_key='vehiclesT2']/unlock_entry[@unlock_tier='1']/@item">,resourceAcid</append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']/effect_group/passive_effect[@level='20,100']/@tags">,resourceAcid</append>
+
+
+
 </progression>
